@@ -1,3 +1,24 @@
+/*
+ * Material necessário
+ * 1 Led
+ * 2 Resistência 220ohm
+ * 1 Node MCU ou Wemos
+ * 
+ * Montagem
+ * Ligar o Anodo (+) ao pino D1 e ligar o Catodo ao GND
+ * 
+ * Utilização
+ * Abrir o Browser e colocar o IP atribuido pela rede Wi-Fi 
+ * Ex: http://192.168.187.107
+ * Para ligar o Led http://192.168.187.107/on
+ * Para desligar o Led http://192.168.187.107/off
+ * 
+ * O Endereço IP pode ser consultado no Serial Monitor do Arduino IDE
+ * 
+ * Desenvolvido por Bruno Horta @ 2017
+ * Código livre pode ser editado e partilhado
+ * http://www.movimentomaker.pt
+ */
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
 #include <ESP8266WebServer.h>
