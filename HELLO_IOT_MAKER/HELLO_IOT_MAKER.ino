@@ -5,7 +5,8 @@
  * 1 Node MCU ou Wemos
  * 
  * Montagem
- * Ligar o Anodo (+) ao pino D1 e ligar o Catodo ao GND
+ * Ligar o Anodo (+) ao pino D1 e ligar o Catodo(-) a um lado da resistência, 
+ * o outro lado da resistência deve ser ligado ao GND no Node MCU ou Wemos.
  * 
  * Utilização
  * Abrir o Browser e colocar o IP atribuido pela rede Wi-Fi 
