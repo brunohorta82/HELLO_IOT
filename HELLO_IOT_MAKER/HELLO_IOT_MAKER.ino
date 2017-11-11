@@ -26,8 +26,8 @@
 #include <ESP8266mDNS.h>
 #define LED  D1
 
-const char* ssid = "nome_da_rede_wifi";
-const char* password = "password_da_rede_wifi";
+const char* ssid = "IOT2017";
+const char* password = "iot2017$";
 
 ESP8266WebServer server(80);
 
